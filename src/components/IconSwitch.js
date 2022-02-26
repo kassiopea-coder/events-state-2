@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 export default function IconSwitch({ icon, onSwitch }) {
   return (
     <div className="IconSwitch">
-      <div className="IconSwitch-button" onClick={onSwitch}><span className="material-icons">{icon}</span></div>
+      <button name="IconSwitch-button" onClick={onSwitch}><span className="material-icons">{icon}</span></button>
     </div>
   );
 }
